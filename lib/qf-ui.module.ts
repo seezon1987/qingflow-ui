@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 
-import { HeaderModule } from './components/header/header.module';
+import { QfMemberSelectModule } from './components/member-select/qf-member-select.module';
+
 
 @NgModule({
   exports: [
-    HeaderModule
+    QfMemberSelectModule
   ]
 })
-export class NameModule { }
+export class QfUiModule { }

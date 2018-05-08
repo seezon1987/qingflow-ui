@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { HeaderModule } from '../../lib/components/header/header.module';
+import { QfUiModule } from '../../lib/qf-ui.module';
 
 
 
@@ -13,7 +13,7 @@ import { HeaderModule } from '../../lib/components/header/header.module';
   ],
   imports: [
     BrowserModule,
-    HeaderModule
+    QfUiModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,11 +1,17 @@
 {
   "$schema": "../node_modules/ng-packagr/package.schema.json",
   "name": "qf-ui",
-  "version": "0.0.1",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/cdk": "^5.0.0"
+  },
   "ngPackage": {
     "dest": "../dist",
     "lib": {
-      "entryFile": "public-api.ts"
+      "entryFile": "public-api.ts",
+      "umdModuleIds": {
+        "@angular/cdk/overlay": "ng.cdk.overlay"
+      }
     }
   }
 }
